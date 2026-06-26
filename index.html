@@ -27,12 +27,13 @@
 
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlp26nmV1nPByaw0SAG36v8cZO0gN9Jagy5A&s"
             alt="Foto de perfil de Kelwin Klinger" title="Imagem de perfil de Kelwin Klinger">
-        
-            
+
+
         <article>
 
             <p>
-                Adicionada mais um texto. Olá! Meu nome é Kelwin Klinger, sou um desenvolvedor de software apaixonado por...
+                Adicionada mais um texto. Olá! Meu nome é Kelwin Klinger, sou um desenvolvedor de software apaixonado
+                por...
             </p>
 
         </article>
@@ -76,6 +77,34 @@
             Email: <a href="mailto:kelwin.klinger@example.com">kelwin.klinger@example.com</a> <br>
             Telefone: <a href="tel:+551112345678">(11) 1234-5678</a>
         </address>
+
+        <form action="">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto" required>
+                <option value="orcamento">Orçamento</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outros">Outros</option>
+            </select><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea><br>
+
+            <input type="checkbox" id="inscricao" name="inscricao" value="sim">
+            <label for="inscricao">Deseja receber novidades?</label><br>
+
+            <input type="submit" value="Enviar mensagem" style="cursor: pointer;"><br>
+
+        </form>
 
     </section>
     </footer>
