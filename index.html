@@ -68,45 +68,92 @@
 
     </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
+    <section id="habilidades">
 
-        <p>Tem um projeto em mente? Entre em contato comigo!</p>
+        <h2>Habilidades e Tecnologias</h2>
 
-        <address>
-            Email: <a href="mailto:kelwin.klinger@example.com">kelwin.klinger@example.com</a> <br>
-            Telefone: <a href="tel:+551112345678">(11) 1234-5678</a>
-        </address>
+        <table>
 
-        <form action="">
+            <thead>
+                <tr> <!--uma linha de cabeçalho-->
+                <th>Tecnologia</th> <!-- Célula de cabeçalho para a coluna de tecnologias -->
+                <th>Nível</th>
+                <th>Descrição</th>
+                </tr>
+            </thead>
 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciantes</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas.</td>
+                </tr>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência com flexbox, grid e animações CSS.</td>
+                </tr>
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required><br>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações dinâmicas.</td>
+                </tr>
+                
+            </tbody>
+                
 
-            <label for="assunto">Assunto:</label>
-            <select name="assunto" id="assunto" required>
-                <option value="orcamento">Orçamento</option>
-                <option value="duvida">Dúvida</option>
-                <option value="outros">Outros</option>
-            </select><br>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea><br>
-
-            <input type="checkbox" id="inscricao" name="inscricao" value="sim">
-            <label for="inscricao">Deseja receber novidades?</label><br>
-
-            <input type="submit" value="Enviar mensagem" style="cursor: pointer;"><br>
-
-        </form>
+        </table>
 
     </section>
+
+    <footer>
+        <p>&copy; 2023 Kelwin Klinger. Todos os direitos reservados.</p>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <p>Tem um projeto em mente? Entre em contato comigo!</p>
+
+            <address>
+                Email: <a href="mailto:kelwin.klinger@example.com">kelwin.klinger@example.com</a> <br>
+                Telefone: <a href="tel:+551112345678">(11) 1234-5678</a>
+            </address>
+
+            <form action="">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto" required>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outros">Outros</option>
+                </select><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea><br>
+
+                <input type="checkbox" id="inscricao" name="inscricao" value="sim">
+                <label for="inscricao">Deseja receber novidades?</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem" style="cursor: pointer;"><br>
+
+                <input type="date">
+
+            </form>
+
+        </section>
     </footer>
 </body>
 
